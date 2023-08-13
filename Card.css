@@ -1,0 +1,46 @@
+.card{
+    width: 50rem;
+    /* background-color: pink; */
+    display: flex;
+    padding: 20px;
+    margin: auto;
+}
+.card img{
+    border-radius: 9px;
+    max-width: 90%;
+
+}
+.card-left{
+    width: 35%;
+}
+.data{
+    width: 100%;
+    margin-left: 10px;
+    position: relative;
+}
+h2{
+    margin-top: 0;
+}
+.sub-data{
+    color: #000;
+    font-size: 18px;
+
+}
+.location{
+    text-transform: uppercase;
+}
+
+.heart{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 44px;
+}
+.heart img{
+    height: 54px;
+}
+
+.heart svg[fill] {
+    color:#FF0000;
+    
+}

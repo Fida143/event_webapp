@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 40%;
+    width: 25%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+input {
+    padding: 5px;
+    font-size: 15px;
+    margin: 10px 0px;
+    border-radius: 4px;
+    
+}
+button{
+    border-radius: 4px;
+    margin: 10px 0px;
+    height: 33px;
+    width: 100%;
+    background-color: rgb(233, 57, 13);
+    color: aliceblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    color:rgb(233, 57, 13);
+    text-decoration: none;
+}
+
+.register{
+   text-align: center;
+}

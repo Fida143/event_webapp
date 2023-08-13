@@ -1,0 +1,55 @@
+header{
+    width: 100%;
+}
+nav {
+    /* margin: 0 5%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    /* padding: 0 5%; */
+    /* background-color: pink; */
+    /* width: 100vw; */
+    overflow: hidden;
+}
+
+.left h1 {
+    margin-left: 5rem;
+    /* width: fit-content; */
+    font-size: 34px;
+    color: rgb(233, 57, 13);
+
+}
+.left a {
+    text-decoration: none;
+}
+
+.right ul {
+    display: flex;
+    /* margin-left:1rem; */
+    /* background-color: red; */
+
+
+}
+
+
+.right ul li {
+    list-style: none;
+    margin-right: 2rem;
+    
+
+}
+
+.right ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: gray;
+}
+
+ .NavLink:hover{
+    color:rgb(233, 57, 13);
+    border-bottom: 4px black;
+    font-weight: bold;
+    transition: ease-in-out 0.5s;
+}
